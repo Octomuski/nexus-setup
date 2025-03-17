@@ -1,4 +1,4 @@
-# To Setup Jenkins
+# To Setup Nexus
 
 Run following command
 
