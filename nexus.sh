@@ -37,6 +37,8 @@ sudo systemctl daemon-reload
 sudo systemctl restart docker
 
 
+# To install nexus using docker
+sudo docker -d --name nexus -p 8081:8081 sonatype/nexus3
 
 
 
