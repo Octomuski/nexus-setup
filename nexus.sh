@@ -33,8 +33,13 @@ ExecStartPost=/bin/chown root:docker /var/run/docker.sock
 ExecStartPost=/bin/chmod 660 /var/run/docker.sock
 EOF
 
-
 sudo systemctl daemon-reload
 sudo systemctl restart docker
 
 
+
+
+
+
+# Nexus Installation
+docker run -d -p 8081:8081 --name nexus3  sonatype/nexus3
