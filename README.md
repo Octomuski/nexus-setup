@@ -13,5 +13,5 @@ Run following command
 
 ## Wget command
 ```bash
-wget -o /tmp/nexus.sh https://raw.githubusercontent.com/Octomuski/nexus-setup/refs/heads/main/nexus.sh | sudo chmod +x /tmp/nexus.sh | bash /tmp/nexus.sh
+wget -O /tmp/nexus.sh https://raw.githubusercontent.com/Octomuski/nexus-setup/refs/heads/main/nexus.sh | sudo chmod +x /tmp/nexus.sh | bash /tmp/nexus.sh
 ```
